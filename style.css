@@ -1,0 +1,129 @@
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Rules{
+    padding: 9px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    flex-wrap: wrap;
+
+    margin: 8px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    color: #11468F;
+    font-size: 35px;
+
+    box-sizing: border-box;
+}
+
+.Level_Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 10px;
+}
+
+.Solution_Buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 5px;
+}
+
+#Generate{
+    display: inline-block;
+    padding: 4px;
+    font-size: 20px;
+    border-width: 0px;
+    border-color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: hidden;
+    border-radius: 0px;
+    box-shadow: 0px 0px 3px rgba(255,255,255,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    margin-right: 10px;
+}
+
+#Get_Easy_Puzzle,#Get_Medium_Puzzle,#Get_Hard_Puzzle,#Backtracking_Solution, #Get_Random_Puzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #F87474;
+    padding: 4px 28px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 7px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+
+.box1{
+    background-color: #F9F2ED;
+    border: 0.5mm solid black;
+}
+
+.box1:hover{
+    background-color: #FFB562;
+    color: black;
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
